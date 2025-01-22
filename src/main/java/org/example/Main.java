@@ -18,7 +18,7 @@ public class Main {
             //2*CREAR OBJETO STATEMENT
             Statement miStatement=miConexion.createStatement();
 
-            //3*EJECUTAR SQL
+            //3*EJECUTAR CONSULTA SQL(EL RESULTSET SOLO SE USA PARA HACER CONSULTAS Y NO UPDATES)
             ResultSet miResulset=miStatement.executeQuery("SELECT * FROM ppppp");
 
             //4*LEER RESULTSET (PROCESAR RESULTADOS)
