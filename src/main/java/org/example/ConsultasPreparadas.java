@@ -25,7 +25,7 @@ public class ConsultasPreparadas {
             }
             resultadoConsulta3.close();
 
-//mañifique
+//-------------------------------------------OLOVORGO----------------------------------------------
         } catch (SQLException e) {
 
         }
