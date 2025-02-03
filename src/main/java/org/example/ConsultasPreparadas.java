@@ -11,7 +11,7 @@ public class ConsultasPreparadas {
             Connection miConexion3 = DriverManager.getConnection("jdbc:mysql://localhost:3306/pruebaexcel"
                     , "root", "alucard5555666*01/*3L");
 
-            //2*CREAR OBJETO PREPARESTATEMENT
+            //2*CREAR OBJETO PREPARESTATEMENT-----CON CONSULTA PREPARADA
             PreparedStatement sentencia=miConexion3.prepareStatement("SELECT * FROM ppppp WHERE NOMBRE=?");
 
             //3*ESTABLECER PARAMETROS DE CONSULTA
@@ -25,7 +25,7 @@ public class ConsultasPreparadas {
             }
             resultadoConsulta3.close();
 
-//-------------------------------------------OLOVORGO----------------------------------------------
+
         } catch (SQLException e) {
 
         }
